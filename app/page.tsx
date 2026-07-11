@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { NibbleApp } from "./components/NibbleApp";
+import { NibbleRevB } from "./components/NibbleRevB";
 
 export const metadata: Metadata = {
   title: "Nibble — Engineering project cockpit",
@@ -8,5 +8,5 @@ export const metadata: Metadata = {
 };
 
 export default function Home() {
-  return <NibbleApp />;
+  return <NibbleRevB />;
 }

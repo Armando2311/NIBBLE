@@ -20,9 +20,9 @@ export async function generateMetadata(): Promise<Metadata> {
     openGraph: {
       title: "Nibble — Your engineering project cockpit",
       description: "Projects, technical files, search, validation, and revision control in one calm workspace.",
-      images: [{ url: "/og.png", width: 1200, height: 630, alt: "Nibble engineering project cockpit" }],
+      images: [{ url: "/og-revb.png", width: 1200, height: 630, alt: "Nibble Revision B engineering project cockpit" }],
     },
-    twitter: { card: "summary_large_image", title: "Nibble", description: "Your engineering project cockpit", images: ["/og.png"] },
+    twitter: { card: "summary_large_image", title: "Nibble Revision B", description: "Your engineering project cockpit", images: ["/og-revb.png"] },
   };
 }
 

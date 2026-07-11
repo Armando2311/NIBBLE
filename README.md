@@ -4,21 +4,23 @@ Nibble is a private engineering project cockpit for NPI work, first articles,
 system design, scripts, validation, SOPs, and revision-controlled technical
 files.
 
-## Current build
+## Revision B
 
 The first product slice includes:
 
+- an all-project Home dashboard with defined and continuous project types
+- persistent customer and project creation under the required customer hierarchy
+- context-aware Add customer, Add project, and Add file workflows
 - a responsive project cockpit with milestones, blockers, workstreams, and activity
-- global indexed search with project and folder context
-- search-result “Reveal in project” navigation
-- a folder workspace with file inspection and drag-to-folder behavior
-- 100 MB upload validation
-- a D1 metadata schema for customers, projects, folders, files, immutable versions, activity, and search records
-- R2 object-storage binding for original files and derivatives
+- global filename, project, code, and metadata search with “Reveal in project” navigation
+- persistent folders, file inspection, download, and drag-to-folder behavior
+- chunked multipart R2 uploads up to 100 MB per file
+- immutable alphabetic file revisions: A–Z, then AA and beyond
+- a D1 metadata schema for customers, projects, folders, files, versions, upload sessions, activity, and search records
 
-The current interface uses coherent demonstration data while persistence,
-multipart uploads, content extraction, and Office/HEIC preview workers are
-connected in subsequent milestones.
+The workspace seeds representative engineering projects on first use. Office
+and HEIC originals are preserved; rich preview generation and file-content
+extraction are planned for Revision C.
 
 ## Development
 
